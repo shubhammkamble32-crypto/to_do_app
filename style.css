@@ -1,0 +1,92 @@
+body{
+    background-color: rgba(0, 0, 0, 0.844);
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    display: flex;
+    
+    
+}
+.container{
+    display:grid;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;
+     grid-template-rows: 20% 20% 60%;
+     padding: 50px;
+     border-radius: 25px;
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+  
+}
+.task_add{
+    background-color: rgba(255, 255, 255, 0.705);
+     justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 25px;
+    display: grid;
+    gap:5%;
+    grid-template-columns: 75% 20%;
+   
+}
+.tasks{
+   background-color: rgba(163, 161, 161, 0.858);
+     /* justify-content: center;
+    align-items: center;
+    align-content: center;  */
+    padding: 15px;
+     border-radius: 7px;
+       column-wrap: wrap;
+           /* max-height: 350px; */
+    overflow-y: auto;
+    
+}
+.header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+  background-color: rgb(255, 255, 255);
+  column-wrap: wrap;
+}
+.list{
+    /* padding-bottom: 3px;
+    padding-top: 3px; */
+    background-color: rgb(255, 255, 255);
+     border-radius: 7px;
+     
+    
+   
+}
+.button{
+    background-color:blueviolet;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+}
+.listItem{
+       display: grid;
+    grid-template-columns: 80% 20%;
+     border-radius: 7px;
+       margin-bottom: 10px;
+
+   
+}
+.button_delete{
+      background-color:blueviolet;
+    color: white;
+    height: 20px;
+    width: 85.7px;
+     border-radius: 7px;
+}
+.input{
+    border-radius: 15px;
+    height:29px
+}
