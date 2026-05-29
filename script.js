@@ -71,9 +71,18 @@ btn.addEventListener("click", function () {
 
         de_btn.style.backgroundColor = "blueviolet";
         de_btn.style.color = "white";
-        de_btn.style.height = "20px";
-        de_btn.style.width = "85.7px";
+        de_btn.style. padding="2px 12px " ;
+        de_btn.style. cursor=" pointer ";
         de_btn.style.borderRadius = "7px";
+        de_btn.style.display=" inline-flex" ;
+    
+    
+        de_btn.style.display = "flex";
+de_btn.style.alignItems = "center";
+de_btn.style.justifyContent = "center";
+        //   de_btn.style.
+
+
 
        
         new_div.appendChild(new_task);
