@@ -5,7 +5,7 @@ let ts = document.querySelector(".tasks")
 
 
 
-list.addEventListener("click", function (ev) {
+ts.addEventListener("click", function (ev) {
 
     if (ev.target.tagName == "BUTTON") {
         ev.target.parentElement.remove();
